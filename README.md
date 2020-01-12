@@ -5,3 +5,9 @@ Our goal is to minimize the costs associated with:
 1. Unnecessary checks done by a mechanic. ($10)
 2. Missing a faulty truck, which may cause a breakdown in the future. ($500)
 However the main objective will be to predict and minimize the cost of failures associated with these combinations of readings.
+
+
+# Objective
+The primary purpose of this project was to implement and compare multiple classification algorithms using the various packages available in Python. The algorithms used are: dimensionality reduction (using SelectKBest and PCA from sklearn), gradient boosting (using sklearn and xgboost), Random Forest, Support Vector Machine and Neural Networks using Keras. Many hyperparemters were tested using cross validation (GridSearchCV).
+
+The lowest cost obtain was around 10000 using XGBoost.
