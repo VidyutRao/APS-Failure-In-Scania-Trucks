@@ -10,4 +10,4 @@ However the main objective will be to predict and minimize the cost of failures 
 # Objective
 The primary purpose of this project was to implement and compare multiple classification algorithms using the various packages available in Python. The algorithms used are: dimensionality reduction (using SelectKBest and PCA from sklearn), gradient boosting (using sklearn and xgboost), Random Forest, Support Vector Machine and Neural Networks using Keras. Many hyperparemters were tested using cross validation (GridSearchCV).
 
-The lowest cost obtainED was $10200 using XGBoost.
+The best performing models were XGBoost and RandomForestClassifier with costs of $10200 and $10400 respectively.
